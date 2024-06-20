@@ -1,0 +1,114 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #fffcfcf0;
+    overflow: hidden;
+    
+}
+
+.box1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    position: relative;
+}
+
+.para-box{
+    width: 50%;
+    height: 10vw;
+    position: relative;
+    top: 2.5vw;
+    left: 3vw;
+}
+
+.para-box p{
+    font-size: 1.8vw;
+    position: absolute;
+    font-weight: 600;
+    left: 2vw;
+  
+}
+
+.photo-box{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 7vw;
+    bottom: 7vw;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+.photo-box img{
+    width: 17.5vw;
+    height: 17.5vw;
+    border-radius: 50%;
+}
+
+.box2{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.first-box2{
+    width: 100%;
+    display: flex;
+    font-size: 2vw;
+    font-weight: 500;
+   
+}
+
+.first-box2 img{
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    position: relative;
+    top: 3.5rem;
+    
+    
+}
+
+.first-box2 p{
+    font-size: 2.5vw;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    position: relative;
+    top: 2vw;
+    left: 15vw;
+    flex-direction: column;
+}
+
+.photo-box2 img{
+    width: 25.5vw;
+    height: 25.5vw;
+    border-radius: 50%;
+    position: relative;
+    top: 4vw;
+    left: 2vw;
+   
+}
+
+.main-para{
+    margin: 0;
+    font-size: 5.5vw;
+    position: relative;
+    left: 16.7vw;
+    bottom: 9.9vw;
+}
+.main-para i{
+    margin: 0;
+    font-size: 2.5vw;
+    position: relative;
+    left: 4vw;
+    bottom: 3vw;
+}
